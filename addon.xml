@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="service.bluetooth.standby"
+       name="Bluetooth Standby Timer"
+       version="0.0.1"
+       provider-name="cspack">
+   <requires>
+   	<import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup"></extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Disconnect bluetooth devices after timeout period</summary>
+    <description>This addon will disconnect bluetooth devices that have standby enabled in LibreELEC settings, triggered by a user configurable timeout value. Currently LibreELEC will only trigger standby when Kodi's screensaver is activated.</description>
+    <platform>all</platform>
+    <assets>
+    <icon>resources/icon.png</icon>
+    <fanart>resources/fanart.png</fanart>
+    </assets>
+  </extension>
+</addon>
