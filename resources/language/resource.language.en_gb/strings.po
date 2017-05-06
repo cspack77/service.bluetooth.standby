@@ -21,6 +21,10 @@ msgid "Standby time (minutes)"
 msgstr ""
 
 msgctxt "#32002"
-msgid "Debug"
+msgid "Device"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Device Path"
 msgstr ""
 

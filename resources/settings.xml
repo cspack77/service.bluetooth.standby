@@ -2,6 +2,7 @@
 <settings>
 	<category label="32000">
 		<setting id="standby_timeout" label="32001" default="10" type="slider" range="1,1,60" option="int"/>
-		<setting id="debug_mode" label="32002" default="false" type="bool"/>
+		<setting id="device_name" label="32002" action="RunScript(special://home/addons/service.bluetooth.standby/device.py)" type="action" default="Select Device"/>
+		<setting id="device_path" label="32003" visible="false" type="text"/>
 	</category>
 </settings>
