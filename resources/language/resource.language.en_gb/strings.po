@@ -17,14 +17,14 @@ msgid "General"
 msgstr ""
 
 msgctxt "#32001"
-msgid "Standby time (minutes)"
-msgstr ""
-
-msgctxt "#32002"
 msgid "Device"
 msgstr ""
 
-msgctxt "#32004"
+msgctxt "#32002"
 msgid "Device Path"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Standby time (minutes)"
 msgstr ""
 
